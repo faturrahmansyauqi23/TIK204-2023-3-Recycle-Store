@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profil</title>
+    <style>
+      body {
+        background-color: white;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      h1 {
+        text-align: 0;
+      }
+
+      .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .button-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+
+      .button-custom {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #5b5b5b;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+
+      .button:hover {
+        background-color: #0062cc;
+      }
+
+      .button-custom:hover {
+        background-color: #383838;
+      }
+
+      .contact {
+        margin-top: 50px;
+        text-align: center;
+      }
+
+      .contact p {
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+      }
+
+      .contact span {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Profil</h1>
+      <p></p>
+      <div>
+        <span>syawal</span>
+      </div>
+      <p></p>
+      <div>
+        <span>08000000000</span>
+      </div>
+
+      <div class="button-container">
+        <div class="button-row">
+          <button class="button button-custom">Transaksi</button>
+          <button class="button button-custom">Dikirim</button>
+          <button class="button button-custom">Diterima</button>
+        </div>
+        <button class="button">Buka Toko</button>
+        <button class="button">History Pembelian</button>
+        <button class="button">Atur Alamat</button>
+        <button class="button">Keluar</button>
+      </div>
+      <div class="contact"></div>
+    </div>
+  </body>
+</html>
